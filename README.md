@@ -1,6 +1,6 @@
 
 
-# Frontend Mentor - FYLO Landing page
+# FYLO Landing page
 
   
 ## Installation: ```git clone, npm i, npm start```
