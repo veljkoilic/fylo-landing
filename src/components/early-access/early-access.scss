@@ -1,0 +1,60 @@
+.early-access {
+  background-color: hsl(217, 28%, 15%);
+  width: 50%;
+  margin: 0px auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 60px;
+  position: relative;
+  top: 120px;
+  h3 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  .emailInput {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    p.error {
+      text-align: left;
+      color: var(--light-red);
+      font-weight: bold;
+      font-size: 12px;
+      margin-left: 30px;
+    }
+    input {
+      width: 100%;
+      padding: 12px 25px;
+      border-radius: 50px;
+      border: none;
+      transition: 0.3s;
+      &:focus{
+        transition: 0.3s;
+        transform: scale(1.05);
+      }
+    }
+    .input{
+        flex: 1;
+
+    }
+    button {
+      align-self: flex-start;
+      padding: 12px 30px;
+      background-color: var(--cyan);
+      background: var(--cyan);
+      background: linear-gradient(90deg, var(--cyan) 0%, hsl(198, 60%, 50%) 100%);
+      color: #fff;
+      border: none;
+      border-radius: 100px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 1s;
+      &:hover {
+        transition: 1s;
+        background: linear-gradient(90deg, var(--cyan) 100%, hsl(198, 60%, 50%) 100%);
+        transform: scale(1.1);
+      }
+    }
+  }
+}

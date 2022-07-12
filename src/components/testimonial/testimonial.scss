@@ -1,0 +1,52 @@
+.testimonial{
+    background-color: hsl(219, 30%, 18%);
+    width: 100%;
+    padding: 30px 25px;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+    transition: 0.3s;
+    &:hover{
+        transition: 0.3s;
+        transform: scale(1.06);
+        cursor: default;
+    }
+    &:first-of-type{
+        position: relative;
+        &::before{
+            content: url("../../../public/images/bg-quotes.png");
+            position: absolute;
+            top: -130px;
+            left: -30px;
+            font-size: 130px;
+            color: var(--cyan);
+            z-index: -1;
+        }
+    }
+    p{
+        color: whitesmoke;
+    }
+    .person{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding-top: 10px;
+        img{
+            width: 30px;
+            border-radius: 50%;
+        }
+        .person-info{
+            display: flex;
+            flex-direction: column;
+            .name{
+                font-weight: bold;
+                font-size: 12px;
+            }
+            .company-role{
+                font-size: 10px;
+                color: whitesmoke;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

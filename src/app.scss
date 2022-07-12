@@ -1,0 +1,53 @@
+.App {
+  @media only screen and (max-width: 1440px) {
+
+  }
+  @media only screen and (max-width: 815px) {
+    .intro .wrapper{
+      width: 100%;
+    }
+    .badges{
+      grid-template-columns: 1fr;
+    }
+    .stay-productive{
+      flex-direction: column;
+      .left{
+        display: flex;
+        justify-content: center;
+      }
+      .right{
+        h3{
+          font-size: 18px;
+        }
+      }
+    }
+    .early-access{
+      width: 65%;
+      padding: 30px 40px;
+      .emailInput{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        input{
+          width: 90%;
+          padding: 10px 20px;
+        }
+        button{
+          align-self: center;
+        }
+      }
+    }
+
+  }
+  @media only screen and (max-width: 450px) {
+    .footer{
+      img{
+        width: 200px;
+      }
+      .info{
+        justify-content: flex-start;
+      }
+    }
+  }
+}

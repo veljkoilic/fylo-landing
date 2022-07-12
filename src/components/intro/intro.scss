@@ -1,0 +1,50 @@
+.intro {
+  padding-top: 107px;
+  background-color: hsl(217, 28%, 15%);
+  background-image: url("../../../public/images/bg-curvy-desktop.svg");
+  background-size: contain;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: center;
+    img {
+      width: 80%;
+      transition: 0.3s;
+      &:hover{
+        transition: 0.3s;
+        width: 83%
+      }
+    }
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      width: 70%;
+    }
+    button {
+      padding: 12px 50px;
+      margin-top: 10px;
+      background-color: var(--cyan);
+      background: var(--cyan);
+      background: linear-gradient(90deg, var(--cyan) 0%, hsl(198, 60%, 50%) 100%);
+      color: #fff;
+      border: none;
+      border-radius: 100px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 1s;
+      &:hover{
+        transition: 1s;
+        background: linear-gradient(90deg, var(--cyan) 100%, hsl(198, 60%, 50%) 100%);
+        transform: scale(1.1);
+      }
+    }
+  }
+}
