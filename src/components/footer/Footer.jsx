@@ -1,6 +1,7 @@
 import "./footer.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationPin, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faTwitter, faInstagram} from "@fortawesome/free-brands-svg-icons";
 
 export const Footer = () => {
   return (
@@ -33,6 +34,11 @@ export const Footer = () => {
                 <li>Privacy</li>
                 <li>Blog</li>
             </ul>
+        </div>
+        <div className="socialMedia">
+    <FontAwesomeIcon icon={faFacebook} />
+    <FontAwesomeIcon icon={faTwitter} />
+    <FontAwesomeIcon icon={faInstagram} />
         </div>
       </div>
     </div>
