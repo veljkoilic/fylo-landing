@@ -18,6 +18,8 @@
 
 ### Screenshot
 
+
+[Live Preview](https://veljkoilic.github.io/fylo-landing/)
   
 
 <img src='https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/r2ntg9yanvjruk8rbdxn.jpg' alt='Fylo Landing page'/>
